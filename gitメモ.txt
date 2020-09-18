@@ -1,2 +1,11 @@
 git init
 
+git add .\gitメモ.txt
+
+git config --global user.email "1299690006@qq.com"
+
+git commit -m "20200918メモ"
+
+git remote add origin https://github.com/s-fangjd/PracPro.git
+
+git push -u origin master
