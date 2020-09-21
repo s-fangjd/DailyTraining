@@ -1,11 +1,15 @@
-git init
+git init  工作区
 
-git add .\gitメモ.txt
+git add .\gitメモ.txt   工作区添加到缓冲区  缓存区，后续的commit 一次性提交，所以缓存区可以缓存多个文件去，以便一次提交
 
 git config --global user.email "1299690006@qq.com"
+git config --global user.name "s-fangjd"
 
-git commit -m "20200918メモ"
+git commit -m "20200918メモ"  添加到归档区,本地版本控制，
 
-git remote add origin https://github.com/s-fangjd/PracPro.git
+git remote add origin https://github.com/s-fangjd/DailyTraining.git
 
-git push -u origin master
+git push -u origin master(git pull --rebase origin master)  归档区推送到远端仓库
+
+git status 查看本地仓库的状态
+
