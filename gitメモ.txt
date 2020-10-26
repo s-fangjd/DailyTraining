@@ -1,15 +1,16 @@
-git init  ¹¤×÷Çø
+git init  å·¥ä½œåŒº
 
-git add .\git¥á¥â.txt   ¹¤×÷ÇøÌí¼Óµ½»º³åÇø  »º´æÇø£¬ºóĞøµÄcommit Ò»´ÎĞÔÌá½»£¬ËùÒÔ»º´æÇø¿ÉÒÔ»º´æ¶à¸öÎÄ¼şÈ¥£¬ÒÔ±ãÒ»´ÎÌá½»
+git add .\gitãƒ¡ãƒ¢.txt   å·¥ä½œåŒºæ·»åŠ åˆ°ç¼“å†²åŒº  ç¼“å­˜åŒºï¼Œåç»­çš„commit ä¸€æ¬¡æ€§æäº¤ï¼Œæ‰€ä»¥ç¼“å­˜åŒºå¯ä»¥ç¼“å­˜å¤šä¸ªæ–‡ä»¶å»ï¼Œä»¥ä¾¿ä¸€æ¬¡æäº¤
 
 git config --global user.email "1299690006@qq.com"
 git config --global user.name "s-fangjd"
 
-git commit -m "20200918¥á¥â"  Ìí¼Óµ½¹éµµÇø,±¾µØ°æ±¾¿ØÖÆ£¬
+git commit -m "20200918ãƒ¡ãƒ¢"  æ·»åŠ åˆ°å½’æ¡£åŒº,æœ¬åœ°ç‰ˆæœ¬æ§åˆ¶ï¼Œ
 
 git remote add origin https://github.com/s-fangjd/DailyTraining.git
 
-git push -u origin master(git pull --rebase origin master)  ¹éµµÇøÍÆËÍµ½Ô¶¶Ë²Ö¿â
+git push -u origin master(git pull --rebase origin master)  å½’æ¡£åŒºæ¨é€åˆ°è¿œç«¯ä»“åº“
 
-git status ²é¿´±¾µØ²Ö¿âµÄ×´Ì¬
+git status æŸ¥çœ‹æœ¬åœ°ä»“åº“çš„çŠ¶æ€
 
+git add .\gitãƒ¡ãƒ¢.txt  gitæ›´æ–°
