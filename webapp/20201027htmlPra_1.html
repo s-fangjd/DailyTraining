@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .red-text {
+            color: red;
+        }
+
+        h2 {
+            font-family: Lobster, monospace;
+        }
+
+        p {
+            font-size: 16px;
+            font-family: monospace;
+        }
+
+        .thick-green-border {
+            border-color: green;
+            border-width: 10px;
+            border-style: solid;
+            border-radius: 50%;
+        }
+
+        .smaller-image {
+            width: 100px;
+        }
+
+        .silver-background {
+            background-color: silver;
+        }
+
+        [type="checkbox"] {
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        .injected-text {
+            margin-bottom: -25px;
+            text-align: center;
+        }
+
+        .box {
+            border-style: solid;
+            border-color: black;
+            border-width: 5px;
+            text-align: center;
+        }
+
+        .yellow-box {
+            background-color: yellow;
+            padding: 20px 40px 20px 40px;
+        }
+
+        .red-box {
+            background-color: red;
+            margin: 20px 40px 20px 40px;
+            padding: 1.5em;
+        }
+
+        .green-box {
+            background-color: green;
+            margin: 40px 20px 20px 40px;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="red-text">CatPhotoApp</h2>
+    <main>
+    
+        <a href="#"><img class="smaller-image thick-green-border" src="http://cdn.chenzhicheng.com/relaxing-cat.jpg" alt="一只仰卧着的萌猫"></a>
+        
+        <div class="silver-background">
+            <p>猫咪最喜欢的三件东西：</p>
+            <ul>
+            <li>猫薄荷</li>
+            <li>激光笔</li>
+            <li>千层饼</li>
+            </ul>
+            <p>猫咪最讨厌的三件东西：</p>
+            <ol>
+            <li>跳蚤</li>
+            <li>打雷</li>
+            <li>同类</li>
+            </ol>
+        </div>
+        
+        <form action="/submit-cat-photo" id="cat-photo-form">
+            <label><input type="radio" name="indoor-outdoor">室内</label>
+            <label><input type="radio" name="indoor-outdoor">室外</label><br>
+            <label><input type="checkbox" name="personality">忠诚</label>
+            <label><input type="checkbox" name="personality">懒惰</label>
+            <label><input type="checkbox" name="personality">积极</label><br>
+            <input type="text" placeholder="猫咪图片地址" required>
+            <button type="submit">提交</button>
+        </form>
+        <h5 class="injected-text">margin</h5>
+        <div class="box yellow-box">
+            <h5 class="box red-box">padding</h5>
+            <h5 class="box green-box">padding</h5>
+        </div>
+    </main>
+</body>
+</html>
